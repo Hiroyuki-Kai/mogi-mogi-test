@@ -70,6 +70,12 @@ docker-compose exec php php artisan db:seed
 docker-compose exec php php artisan storage:link
 ```
 
+## 9. パーミッション設定（初回起動時）
+
+Laravel がログ・キャッシュを書き込めるように権限を設定します。
+
+```bash
+docker-compose exec php bash -lc "chmod -R 775 storage bootstrap/cache && chown -R www-data:www-data storage bootstrap/cache"
 ---
 
 # 使用技術（実行環境）
