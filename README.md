@@ -76,8 +76,9 @@ Laravel がログ・キャッシュを書き込めるように権限を設定し
 
 ```bash
 docker-compose exec php bash -lc "chmod -R 775 storage bootstrap/cache && chown -R www-data:www-data storage bootstrap/cache"
----
+```
 
+---
 # 使用技術（実行環境）
 
 -   PHP 8.4.10
@@ -111,8 +112,6 @@ ER図は下記画像を参照してください。
 
 ![ER図](./mogimogi_er.png)
 
-※ 提出フォルダにER図画像を配置してください
-
 ---
 
 # URL一覧（ローカル環境）
@@ -129,4 +128,5 @@ ER図は下記画像を参照してください。
 # 補足
 
 ※ 初期状態では画像ファイルは存在しません。
-商品登録時に画像をアップロードすることで表示されます。
+商品登録時に以下の画像を「storage/app/public/images/」配下にアップロードすることで表示されます。<br>
+[ダミーデータ画像ファイル](./fruits-img.zip)
