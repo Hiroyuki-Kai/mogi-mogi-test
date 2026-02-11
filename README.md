@@ -24,8 +24,7 @@ docker-compose up -d --build
 ## 3. Composerインストール
 
 ```bash
-docker-compose exec php bash
-composer install
+docker-compose exec php composer install
 ```
 
 ## 4. .env作成
