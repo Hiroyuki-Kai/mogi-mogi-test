@@ -123,3 +123,10 @@ ER図は下記画像を参照してください。
 | 商品登録       | http://localhost/products/register    |
 | 商品詳細       | http://localhost/products/detail/{id} |
 | phpMyAdmin | http://localhost:8080                 |
+
+---
+
+# 補足
+
+※ 初期状態では画像ファイルは存在しません。
+商品登録時に画像をアップロードすることで表示されます。
