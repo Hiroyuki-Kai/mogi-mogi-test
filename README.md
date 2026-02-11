@@ -11,8 +11,8 @@
 ## 1. リポジトリをクローン
 
 ```bash
-git clone git@github.com:Hiroyuki-Kai/mogi-mogi-test.git
-cd mogi-mogi-test
+git clone git@github.com:Hiroyuki-Kai/mogitate-test.git
+cd mogitate-test
 ```
 
 ## 2. Docker起動
@@ -110,7 +110,7 @@ docker-compose exec php bash -lc "chmod -R 775 storage bootstrap/cache && chown 
 
 ER図は下記画像を参照してください。
 
-![ER図](./mogimogi_er.png)
+![ER図](./mogitate_er.png)
 
 ---
 
